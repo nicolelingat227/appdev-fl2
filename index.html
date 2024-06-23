@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta here -->
+
+    <!-- google fonts -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appdev-fl2</title>
+ 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+   
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/gi-logo.png">
+
+
+    <title>Appdev-fl2</title>
+  </head>
+  <body>
+    <nav class="fixed top-0 left-0 right-0 bg-gray-700 border-gray-200 dark:bg-gray-900">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <img src="./images/gi-logo.png" class="h-8" alt="Flowbite Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">General Industry</span>
+          </a>
+          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+              <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                  <li>
+                      <a href="#Home" class="nav-link active block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+                  </li>
+                  <li>
+                      <a href="./pages/about.html" class="nav-link active block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                  </li>
+                  <li>
+                      <a href="./pages/services.html" class="nav-link active block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                  </li>
+                  <li>
+                      <a href="./pages/contact.html" class="nav-link active block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+
+<section id="Home">
+  <div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1459&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+<br>
+
+<section class="bg-white-500 text-black py-20 pt-28">
+  <div class="container mx-auto text-center">
+  <h1 class="font-serif text-4xl font-bold mb-4">Welcome to General Industry</h1>
+  <p class="text-xl mb-6">Welcome to the General Industry section. General industry covers a wide range of sectors, including film and television, music, and gaming. These sectors contribute significantly to the entertainment industry, each with its own unique characteristics and challenges.</p>
+  <div>
+    <h3 class="text-center m-6 mb-12">
+      <a href="./pages/index.html">
+        <button class="text-center bg-gray-900 p-3 pl-6 pr-6 font-bold text-white rounded-lg">Learn More</button>
+      </a>
+    </h3>
+  </div>
+</div>
+<br>
+</section>
+  
+<section class="container mx-auto px-6 py-12">
+  <div class="grid md:grid-cols-2 gap-8">
+  <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1533669955142-6a73332af4db?q=80&w=1574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Publishsing" class="w-full">
+  <div class="p-6">
+  <h2 class="text-2xl font-bold text-gray-800">Publishing</h2>
+  <p class="text-gray-600 mt-4">This sub-industry encompasses the creation, distribution, and marketing of books, magazines, newspapers, and other forms of printed media. While not always seen as pure entertainment, publishers produce a lot of content for leisure reading.</p>
+  <a href="./pages/read.html" class="inline-block mt-6 text-blue-500 hover:text-blue-700">Read more</a>
+  </div>
+  </div>
+  <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://images.unsplash.com/photo-1522327646852-4e28586a40dd?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Live Performances" class="w-full">
+  <div class="p-6">
+  <h2 class="text-2xl font-bold text-gray-800">Live Performances</h2>
+  <p class="text-gray-600 mt-4">We organize and manage live events, including concerts, festivals, and corporate events, providing unforgettable experiences for attendees.</p>
+  <a href="./pages/read1.html" class="inline-block mt-6 text-blue-500 hover:text-blue-700">Read more</a>
+  </div>
+  </div>
+  </div>
+  </section>
+
+<section class="py-12 bg-white">
+  <div class="flex flex-wrap justify-center -mx-4">
+  <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+  <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="./images/jakob-owens-CiUR8zISX60-unsplash.jpg" alt="Event Planning" class="w-full">
+  <div class="p-6">
+  <h3 class="text-2xl font-semibold text-gray-800 mb-2">Film Television</h3>
+  <p class="text-gray-600">Film and television offer a diverse array of storytelling that entertains, educates, and often reflects the values and concerns of society.</p>
+  <a href="./pages/read2.html" class="inline-block mt-6 text-blue-500 hover:text-blue-700">Read more</a>
+  </div>
+  </div>
+  </div>
+  <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+  <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="./images/aleksandr-popov-hTv8aaPziOQ-unsplash.jpg" alt="Live Performances" class="w-full">
+  <div class="p-6">
+  <h3 class="text-2xl font-semibold text-gray-800 mb-2">Music Production</h3>
+  <p class="text-gray-600">The music industry encompasses a vast ecosystem of artists, producers, labels, and platforms, constantly evolving in response to technological advancements and cultural shifts.</p>
+  <a href="./pages/read3.html" class="inline-block mt-6 text-blue-500 hover:text-blue-700">Read more</a>
+  </div>
+  </div>
+  </div>
+  <div class="w-full md:w-1/2 lg:w-1/3 px-4 mb-8">
+  <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="./images/glenn-carstens-peters-0woyPEJQ7jc-unsplash.jpg" alt="Talent Management" class="w-full">
+  <div class="p-6">
+  <h3 class="text-2xl font-semibold text-gray-800 mb-2">Gaming Industry</h3>
+  <p class="text-gray-600">The music industry encompasses a vast ecosystem of artists, producers, labels, and platforms, constantly evolving in response to technological advancements and cultural shifts.</p>
+  <a href="./pages/read4.html" class="inline-block mt-6 text-blue-500 hover:text-blue-700">Read more</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+
+  <footer class="bg-gray-700 text-white p-4">
+    <div class="container mx-auto">
+      <p class="text-center">© 2024 Lingat, Marie Nicole. All rights reserved.</p>
+    </div>
+  </footer>
+</section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>
